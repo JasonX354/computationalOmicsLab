@@ -1,0 +1,36 @@
+
+nav li {
+    display: inline-block;
+    position: relative;
+}
+nav li ul {
+    display: none;
+    position: absolute;
+    width: 100px;
+    top: 100%;
+    padding: 0;
+    background-color: Tomato;
+    border-style: solid;
+}
+nav li:hover > ul {
+    display: block;
+}
+nav a {
+}
+body {
+    background-color: Tomato;
+}
+p {
+    color: WhiteSmoke;
+    font-size: 100%;
+    font-family: "Arial";
+}
+h1{
+    font-size: 500%;
+    font-family: "Impact";
+}
+table, th, td {
+    background-color: WhiteSmoke;
+    font-family: "Calibri";
+    border: 1px solid;
+}
